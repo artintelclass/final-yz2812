@@ -33,5 +33,11 @@ You may work within a group or by yourself.
 * May 7th (Mon): IM Show
 
 ## Repo
-Use this repo to store all your code, sketches, documentation, etc.
+* Project Proposal
+Project Theme: Demoji Danmaku
+Background: A mainstream cultural phenomenon in some Japanese and Chinese Video website is users enjoy using Danmaku (Bullet Curtain) 
+commenting function to send real-time or content-relavant comments that will show above video. In English enviroment, a Chrome extension called Twitch Danmaku also applied the similar technology enabling viewers can comment on game livestreams. Althogh Danmaku is a great vibe creater and attracts viewers to get involved in the video, long Danmakus usually block the important content of videos and influence the watching experience. In this senario, the vibe of video can be amplified by the Danmaku but long Danmaku is neither readable or asthetic. Therefore, I am considering if there can be interesting function for video websites like Youtube to use AI to automaticly generate emojis or emoticons based on the sentence's content. Currently, there is a pre-trained API called Deepmoji, which can generate emoji by analazing the implying mood of the sentence, and I will use Youtube's API to use the Deepmoji to analyze Youtube's videos and generate corresponding emoji as transcript to show the vibe created implied the sentence. As a improvement, I will also try to analyze the comments of the video and generate the emoji based on them.
+Link to Deepmoji:(https://deepmoji.mit.edu/)
+Link to Youtube API:(https://developers.google.com/youtube/v3/code_samples/)
+
 
