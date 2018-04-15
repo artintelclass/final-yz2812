@@ -40,6 +40,6 @@ commenting function to send real-time or content-relavant comments that will sho
 Link to Deepmoji:(https://deepmoji.mit.edu/)    
 Link to Youtube API:(https://developers.google.com/youtube/v3/code_samples/)    
 Twitch Danmaku:
-![sf](http://430.io/twitch-danmaku-chrome-extension-v1-1-1/)
+![sf](http://430.io/content/images/2016/03/bttv.png)
 
 
