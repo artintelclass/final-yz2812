@@ -33,13 +33,14 @@ You may work within a group or by yourself.
 * May 7th (Mon): IM Show
 
 ## Repo
-* Project Proposal
-Project Theme: Demoji Danmaku
-Background: A mainstream cultural phenomenon in some Japanese and Chinese Video website is users enjoy using Danmaku (Bullet Curtain) 
-commenting function to send real-time or content-relavant comments that will show above video. In English enviroment, called Twitch Danmaku also applied the similar technology enabling viewers can comment on game livestreams. Althogh Danmaku is a great vibe creater and attracts viewers to get involved in the video, long Danmakus usually block the important content of videos and influence the watching experience. In this senario, the vibe of video can be amplified by the Danmaku but long Danmaku is neither readable or asthetic. Therefore, I am considering if there can be interesting function for video websites like Youtube to use AI to automaticly generate emojis or emoticons based on the sentence's content. Currently, there is a pre-trained API called Deepmoji, which can generate emoji by analazing the implying mood of the sentence, and I will use Youtube's API to use the Deepmoji to analyze Youtube's videos and generate corresponding emoji as transcript to show the vibe created implied the sentence. As a improvement, I will also try to analyze the comments of the video and generate the emoji based on them.    
+Project Proposal
+* Project Theme: Deeper Emoticon
+* Background
+**As many people in the world using Emojis to express their feeling, Emoticon (顔文字) is widly used in Eastern Asian countries   where the language is based on logogram. Unlike phonogram languages, where the most characters are shown in keyboard of computer or      mobilephones, logogram based languages usually need Input Method Editor programs or apps to type. These programs or apps preserve the space for Emoticons as well as bring more unsusal characters for people to create more Emoticon. Distinguished from Emoji, Emoticons are not icons but the combination of different special text characters. Also, compared to Emoji's ono-to-one relationship between word and emoji icon, Emoticon have varying expression combined by diffrent characters to express similar meanings. In this regard, the expression of emoticon is more vague than emoji, where similar emoticons can reflect different content of user's emotion. Inspired by MIT's Deepmoji program, I am interested to use AI to explore the sentimental relationship between text and emoticons.
+* Brainstorm
+* Expected outcome: 
 Link to Deepmoji:(https://deepmoji.mit.edu/)    
 Link to Youtube API:(https://developers.google.com/youtube/v3/code_samples/)    
-Twitch Danmaku:
-![sf](http://430.io/content/images/2016/03/bttv.png)
+
 
 
