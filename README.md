@@ -35,12 +35,11 @@ You may work within a group or by yourself.
 ## Repo
 Project Proposal
 * Project Theme: Deeper Emoticon
-* Background
-**As many people in the world using Emojis to express their feeling, Emoticon (顔文字) is widly used in Eastern Asian countries   where the language is based on logogram. Unlike phonogram languages, where the most characters are shown in keyboard of computer or      mobilephones, logogram based languages usually need Input Method Editor programs or apps to type. These programs or apps preserve the space for Emoticons as well as bring more unsusal characters for people to create more Emoticon. Distinguished from Emoji, Emoticons are not icons but the combination of different special text characters. Also, compared to Emoji's ono-to-one relationship between word and emoji icon, Emoticon have varying expression combined by diffrent characters to express similar meanings. In this regard, the expression of emoticon is more vague than emoji, where similar emoticons can reflect different content of user's emotion. Inspired by MIT's Deepmoji program, I am interested to use AI to explore the sentimental relationship between text and emoticons.
-* Brainstorm
-* Expected outcome: 
+* Background:
+** As many people in the world using Emojis to express their feeling, Emoticon (顔文字) is widly used in Eastern Asian countries   where the language is based on logogram. Unlike phonogram languages, where the most characters are shown in keyboard of computer or      mobilephones, logogram based languages usually need Input Method Editor programs or apps to type. These programs or apps preserve the space for Emoticons as well as bring more unsusal characters for people to create more Emoticon. Distinguished from Emoji, Emoticons are not icons but the combination of different special text characters. Also, compared to Emoji's ono-to-one relationship between word and emoji icon, Emoticon have varying expression combined by diffrent characters to express similar meanings. In this regard, the expression of emoticon is more vague than emoji, where similar emoticons can reflect different content of user's emotion. Inspired by MIT's Deepmoji program, I am interested to use AI to explore the sentimental relationship between text and emoticons.
+* Brainstorm:
+** Since the using senarios of emoticons are different from Emoji, there is hard to find enough trainding data to construct model to predict Emoticons for sentences. Therefore, I am planning to use the pre-trained model from Deepmoji to construct the relationship between Emoji and thier presenting word, and connect to Emoticons under the same word description. Alternatively, I am looking for some pre-trained model analyzing emotion reflected by sentences and concluding them as words, and then connect word to Emoticons directly. After the connection, the project is able to access basic function, which can analyze text and generate corresponding emoticons, and I can explore more about th erelationship between diffrent emoticons. For instance, I can use the word embedding to find the relative relation between emoticons, use GAN to generate new emoticons, and use LSTM to predict the meaning of emoticons.
 Link to Deepmoji:(https://deepmoji.mit.edu/)    
-Link to Youtube API:(https://developers.google.com/youtube/v3/code_samples/)    
-
+Link to a Emoticon Website:(http://japaneseemoticons.me/)
 
 
