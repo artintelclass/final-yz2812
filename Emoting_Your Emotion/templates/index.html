@@ -1,0 +1,86 @@
+<!DOCTYPE html><html>
+<head>
+   <meta charset="utf-8">
+    <title>Emoting</title>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+   
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="{{url_for('static', filename='p5.min.js')}}"></script>
+    <script src="{{url_for('static', filename='p5.dom.min.js')}}"></script>
+   
+    <script type=text/javascript>
+var $SCRIPT_ROOT = {{request.script_root|tojson|safe}};
+var emoticons=[];
+var emoticon=''
+</script>
+<script type=text/javascript>
+var preparing=false;
+var sentence;
+var sentences=[];
+$(function() {
+    function submit_form(e) {
+        $.getJSON($SCRIPT_ROOT + '/add', {   
+            a: $('input[id="input"]').val()
+        
+       
+            
+        }, 
+        function(data) {
+     
+            sentence=String(inp.value());
+            sentences.push(sentence);
+            emoticon=data.result;
+            emoticons.push(new Emo());
+            // $('#result').text(data.result);
+            preparing=false;
+            console.log(emoticons);
+            console.log(sentences);
+        });
+    };
+   
+  $('#emo').bind('click', submit_form);
+
+});
+$('*').keypress(function(e) {
+        if(e.which == 13) {
+            prep='Finding the emoticon ' +cuteemo[floor(random(cuteemo.length))];
+            preparing=true;
+            jQuery(this).blur();
+            jQuery('#emo').focus().click();
+        }
+    });
+</script>
+    
+  
+    <style> html,body {padding: 0; margin: 0;} #canvas {position:relative top:0; left:0 ;vertical-align: top; z-index:-5;} #mycanvas {position:absolute top:0 left:0vertical-align: top; z-index:-5;} #button,#emo{position:absolute ;top:82%; left:82%;margin:auto ;text-align: center; }#button{z-index:-9999}
+     #text {}</style>
+    
+
+  </head>
+  <body>
+    
+    <div id="canvas"></div>
+  
+    
+<p id='button' ><input type="button"  id="emo" value="emoticon it!" ></p>
+
+ 
+    <script src="{{url_for('static', filename='sketch.js')}}"></script>
+  </body>
+
+    
+
+    
+  <script>
+    
+
+		var totalText = '';
+		var tempText;
+		var translate=false;//use while loop for translating if translate=-true
+
+  </script>
+
+</body></html>
