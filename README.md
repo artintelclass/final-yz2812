@@ -50,5 +50,8 @@ book for museums or exhibitions. After the visiting, visitors can leave their co
 ![Imgur](https://i.imgur.com/fIkDeE3.jpg)
 * Self-Evaluation:   
 In this project, I have learned and understand plenty of knowledge about different coding languages, and how can I use them to apply artificial intelligence related projcet to public users. Starting from switching code in the pretrained model in Python, I teired to use tensorflow.js and keras.js to accopmlish web-based model prediction. However, due to the model's converting issue, I had to use flask to construct the server and create a webpage where the data can pass between python and html. In order to optimize the visual effect of the project, I used P5.js to create a sketch to illustate the interaction. Overall, I am satisfied with the project, as the process of making it gives me a clear clue that how to integrate different coding part together. Nevertheless, I have to admit that the process of figuring out the issue of running the model on browser took me too much time, which resulted I did have too much time on polishing the project. For the next step, I will consider add more emoticons into the program, which can generate various but similar emoticons for the same input.
+* Instruction:   
+You can download the file [Emoting_Your_Emotion](https://github.com/artintelclass/final-yz2812/tree/master/Emoting_Your%20Emotion) and add its files directly to the "example" directory in MIT's [Deepmoji] (https://deepmoji.mit.edu/) model with downloading its pre-trained model. Then, please install required libraries and run the python file "running the page". 
+
 
 
